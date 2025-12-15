@@ -1,5 +1,5 @@
 <template>
-  <header class="bg-rose-50 dark:bg-gray-900 shadow-md sticky top-0 z-50 transition-colors duration-300">
+  <header class="bg-rose-50 dark:bg-gray-900 shadow-lg sticky top-0 z-50 transition-colors duration-300">
     <div class="container mx-auto px-4 sm:px-6 lg:px-8">
       <div class="flex items-center justify-between h-16 md:h-20">
         <!-- Logo -->
@@ -22,14 +22,16 @@
             <span class="absolute bottom-0 left-1/2 -translate-x-1/2 w-0 h-0.5 bg-rose-600 dark:bg-rose-400 group-hover:w-4/5 transition-all duration-300"/>
           </NuxtLink>
           <!-- Dark Mode Toggle Button -->
-          <button
-            class="ml-4 p-2 rounded-lg text-gray-700 dark:text-gray-200 hover:bg-rose-100 dark:hover:bg-gray-800 transition-colors duration-300 focus:outline-none focus:ring-2 focus:ring-rose-500"
-            aria-label="Toggle dark mode"
-            @click="toggleDarkMode"
-          >
-            <i v-if="colorMode.value === 'light'" class="mdi mdi-weather-night text-2xl"/>
-            <i v-else class="mdi mdi-white-balance-sunny text-2xl"/>
-          </button>
+          <ClientOnly>
+            <button
+              class="ml-4 p-2 rounded-lg text-gray-700 dark:text-gray-200 hover:bg-rose-100 dark:hover:bg-gray-800 transition-colors duration-300 focus:outline-none focus:ring-2 focus:ring-rose-500"
+              aria-label="Toggle dark mode"
+              @click="toggleDarkMode"
+            >
+              <i v-if="colorMode.value === 'light'" class="mdi mdi-weather-night text-2xl"/>
+              <i v-else class="mdi mdi-white-balance-sunny text-2xl"/>
+            </button>
+          </ClientOnly>
         </nav>
 
         <!-- Mobile Menu Button -->
@@ -94,14 +96,14 @@ const colorMode = useColorMode();
 const menu = [
   { name: 'Ejes', link: '/' },
   { name: 'Asalvo', link: '/asalvo' },
-  { name: 'Congreso', link: '/contact' },
-  { name: 'Talleres', link: '/contact' },
-  { name: 'Voluntariado', link: '/contact' },
-  { name: 'Noticias', link: '/contact' },
-  { name: 'Tienda', link: '/contact' },
-  { name: 'Donar', link: '/contact' },
-  { name: 'Transparencia', link: '/contact' },
-  { name: 'Contacto', link: '/contact' },
+  { name: 'Congreso', link: '/' },
+  { name: 'Talleres', link: '/' },
+  { name: 'Voluntariado', link: '/' },
+  { name: 'Noticias', link: '/' },
+  { name: 'Tienda', link: '/' },
+  { name: 'Donar', link: '/' },
+  { name: 'Transparencia', link: '/' },
+  { name: 'Contacto', link: '/' },
 ];
 
 const isMenuOpen = ref(false);
