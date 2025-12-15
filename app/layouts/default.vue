@@ -3,5 +3,6 @@
     <NuxtRouteAnnouncer />
     <MainNav />
     <slot />
+    <MainFoot />
   </div>
 </template>
