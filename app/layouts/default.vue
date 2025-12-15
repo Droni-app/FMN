@@ -1,6 +1,7 @@
 <template>
   <div>
     <NuxtRouteAnnouncer />
+    <DonateButton />
     <MainNav />
     <slot />
     <MainFoot />
