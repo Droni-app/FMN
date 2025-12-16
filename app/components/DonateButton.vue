@@ -1,22 +1,22 @@
 <template>
   <a 
-    href="https://www.paypal.com/donate?hosted_button_id=YOUR_BUTTON_ID" 
+    href="https://checkout.wompi.co/l/VPOS_2DN3Dr" 
     target="_blank"
     class="donate-button group fixed bottom-8 right-8 z-50 flex items-center gap-3 bg-gradient-to-r from-rose-500 via-pink-500 to-rose-600 text-white rounded-full shadow-2xl hover:shadow-rose-500/50 transition-all duration-500 overflow-hidden"
   >
     <!-- Círculo con corazón -->
     <div class="relative flex items-center justify-center w-16 h-16 flex-shrink-0">
       <!-- Corazón que late -->
-      <i class="mdi mdi-heart text-4xl animate-heartbeat relative z-10"></i>
+      <i class="mdi mdi-heart text-4xl animate-heartbeat relative z-10"/>
       
       <!-- Partículas de amor -->
-      <span class="absolute top-1 left-1 w-2 h-2 bg-white rounded-full animate-particle-1 opacity-0"></span>
-      <span class="absolute top-2 right-2 w-1.5 h-1.5 bg-pink-200 rounded-full animate-particle-2 opacity-0"></span>
-      <span class="absolute bottom-2 left-2 w-1 h-1 bg-rose-200 rounded-full animate-particle-3 opacity-0"></span>
-      <span class="absolute bottom-1 right-3 w-2 h-2 bg-white rounded-full animate-particle-4 opacity-0"></span>
+      <span class="absolute top-1 left-1 w-2 h-2 bg-white rounded-full animate-particle-1 opacity-0"/>
+      <span class="absolute top-2 right-2 w-1.5 h-1.5 bg-pink-200 rounded-full animate-particle-2 opacity-0"/>
+      <span class="absolute bottom-2 left-2 w-1 h-1 bg-rose-200 rounded-full animate-particle-3 opacity-0"/>
+      <span class="absolute bottom-1 right-3 w-2 h-2 bg-white rounded-full animate-particle-4 opacity-0"/>
       
       <!-- Onda expansiva en hover -->
-      <span class="absolute inset-0 rounded-full bg-white opacity-0 group-hover:animate-ping-slow"></span>
+      <span class="absolute inset-0 rounded-full bg-white opacity-0 group-hover:animate-ping-slow"/>
     </div>
     
     <!-- Texto que se expande -->
@@ -27,7 +27,7 @@
     </div>
     
     <!-- Brillo animado -->
-    <div class="absolute inset-0 bg-gradient-to-r from-transparent via-white/20 to-transparent -translate-x-full group-hover:translate-x-full transition-transform duration-1000"></div>
+    <div class="absolute inset-0 bg-gradient-to-r from-transparent via-white/20 to-transparent -translate-x-full group-hover:translate-x-full transition-transform duration-1000"/>
   </a>
 </template>
 
