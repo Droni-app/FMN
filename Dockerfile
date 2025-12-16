@@ -7,7 +7,7 @@ FROM node:lts-alpine AS builder
 WORKDIR /app
 
 # Copia los archivos de configuración de dependencias para aprovechar el caché de Docker
-COPY package.json package-lock.json pnpm-lock.yaml yarn.lock* ./
+COPY package.json package-lock.json ./
 
 # Instala las dependencias. Asegúrate de usar el gestor de paquetes correcto (npm, yarn, pnpm)
 # Si usas npm:
