@@ -1,0 +1,25 @@
+# Archivos de la aplicación que se generan en el proceso de build.
+# Estos deben generarse dentro del contenedor, no copiarse desde el host.
+.nuxt
+.output
+.nitro
+
+# Directorio de dependencias que se instala dentro del contenedor
+node_modules
+
+# Archivos de configuración de gestión de código (no necesarios para la ejecución)
+.git
+.gitignore
+.gitattributes
+
+# Archivos de desarrollo local y entorno
+.env
+.env.*
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Archivos del sistema operativo y editor
+.DS_Store
+.vscode/
