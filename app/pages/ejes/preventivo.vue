@@ -46,16 +46,30 @@
 
         <!-- Grid 3 Columns-->
         <div class="grid grid-cols-1 md:grid-cols-3 gap-6 my-10">
-          <div class="rounded-lg overflow-hidden shadow-lg">
-            <img src="~/assets/img/talleres/01-taller-primeros-auxilios.jpg" alt="Taller RCP" class="w-full h-48 object-cover">
+          <div
+            v-for="taller in talleres"
+            :key="taller.slug"
+            class="rounded-lg overflow-hidden shadow-lg">
+            <img :src="`/img/talleres/${taller.slug}.jpg`" :alt="taller.name" class="w-full h-48 object-cover">
             <div class="p-4">
               <h4 class="text-xl font-semibold mb-2">
-                TALLER DE PRIMEROS AUXILIOS Y RCP PARA AU PAIR
+                {{ taller.name }}
               </h4>
             </div>
           </div>
+        </div>
+        <div class="text-center">
+          <NuxtLink to="/talleres" class="inline-block cursor-pointer mt-6 mx-auto px-6 py-3 bg-rose-500 text-white rounded-full shadow-lg hover:bg-rose-600 transition-colors duration-300 flex items-center gap-2">
+            <i class="mdi mdi-plus text-xl"/>
+            Más información
+          </NuxtLink>
         </div>
       </div>
     </article>
   </section>
 </template>
+<script setup lang="ts">
+
+const { data:talleres } = await useFetch('/api/talleres')
+
+</script>
