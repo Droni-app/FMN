@@ -60,7 +60,7 @@
                   placeholder="Tu nombre completo"
                   class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:border-purple-600 focus:ring-2 focus:ring-purple-200 transition-all"
                   required
-                />
+                >
               </div>
 
               <!-- Email -->
@@ -74,7 +74,7 @@
                   placeholder="tu@email.com"
                   class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:border-purple-600 focus:ring-2 focus:ring-purple-200 transition-all"
                   required
-                />
+                >
               </div>
 
               <!-- Teléfono -->
@@ -87,7 +87,7 @@
                   type="tel"
                   placeholder="+57 3XX XXX XXXX"
                   class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:border-purple-600 focus:ring-2 focus:ring-purple-200 transition-all"
-                />
+                >
               </div>
 
               <!-- Mensaje -->
@@ -101,7 +101,7 @@
                   rows="5"
                   class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:border-purple-600 focus:ring-2 focus:ring-purple-200 transition-all resize-none"
                   required
-                ></textarea>
+                />
               </div>
 
               <!-- Botones -->
@@ -114,8 +114,8 @@
                 </button>
                 <button
                   type="button"
-                  @click="openWhatsApp"
                   class="flex-1 bg-green-500 hover:bg-green-600 text-white font-bold py-3 px-6 rounded-lg transition-all duration-300 flex items-center justify-center gap-2"
+                  @click="openWhatsApp"
                 >
                   <span>WhatsApp</span>
                 </button>
@@ -128,7 +128,7 @@
             <!-- Teléfono -->
             <div class="bg-gradient-to-br from-purple-50 to-pink-50 p-6 rounded-lg border border-purple-100">
               <div class="flex items-start gap-4">
-                <i class="mdi mdi-phone text-4xl text-purple-600"></i>
+                <i class="mdi mdi-phone text-4xl text-purple-600" />
                 <div class="flex-1">
                   <h3 class="text-lg font-bold text-purple-700 mb-3">Teléfono</h3>
                   <a
@@ -150,7 +150,7 @@
             <!-- Email -->
             <div class="bg-gradient-to-br from-purple-50 to-pink-50 p-6 rounded-lg border border-purple-100">
               <div class="flex items-start gap-4">
-                <i class="mdi mdi-email text-4xl text-purple-600"></i>
+                <i class="mdi mdi-email text-4xl text-purple-600" />
                 <div class="flex-1">
                   <h3 class="text-lg font-bold text-purple-700 mb-3">Email</h3>
                   <a
@@ -166,7 +166,7 @@
             <!-- Ubicación -->
             <div class="bg-gradient-to-br from-purple-50 to-pink-50 p-6 rounded-lg border border-purple-100">
               <div class="flex items-start gap-4">
-                <i class="mdi mdi-map-marker text-4xl text-purple-600"></i>
+                <i class="mdi mdi-map-marker text-4xl text-purple-600" />
                 <div class="flex-1">
                   <h3 class="text-lg font-bold text-purple-700 mb-3">Ubicación</h3>
                   <a
@@ -174,7 +174,7 @@
                     target="_blank"
                     class="text-gray-700 hover:text-purple-600 font-semibold transition-colors"
                   >
-                    Km 5 vía antigua al Guavio<br />
+                    Km 5 vía antigua al Guavio<br>
                     Altos de Serrezuela, Bogotá
                   </a>
                 </div>

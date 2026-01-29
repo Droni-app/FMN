@@ -121,7 +121,7 @@
               src="~/assets/img/donar/ropero.png" 
               alt="Ropero" 
               class="rounded-lg shadow-xl w-full"
-            />
+            >
           </div>
         </div>
       </div>

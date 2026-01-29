@@ -1,5 +1,5 @@
 <template>
-  <div class="transparencia-page">
+  <div>
     <!-- Hero Section -->
     <section class="bg-gradient-to-r from-purple-600 to-pink-600 text-white py-16 px-4">
       <div class="container mx-auto max-w-6xl">
@@ -205,9 +205,3 @@ useHead({
   ]
 })
 </script>
-
-<style scoped>
-.transparencia-page {
-  @apply min-h-screen;
-}
-</style>
