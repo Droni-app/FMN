@@ -98,7 +98,7 @@ const menu = [
   { name: 'Asalvo', link: '/asalvo' },
   { name: 'Congreso', link: '/' },
   { name: 'Talleres', link: '/talleres' },
-  { name: 'Voluntariado', link: '/' },
+  { name: 'Voluntariado', link: '/voluntariado' },
   { name: 'Noticias', link: '/' },
   { name: 'Tienda', link: '/' },
   { name: 'Donar', link: '/' },
