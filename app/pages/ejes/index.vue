@@ -19,16 +19,16 @@
       </div>
       <div class="rounded-lg overflow-hidden shadow-lg">
         <NuxtLink to="/ejes/preventivo">
-          <img src="~/assets/img/ejes/ejepreventivo01.webp" alt="Eje Preventivo" class="w-full h-80 object-cover">
+          <img src="~/assets/img/ejes/padrino.webp" alt="Eje Preventivo" class="w-full h-80 object-cover">
         </NuxtLink>
         <div class="p-4">
-          <NuxtLink to="/ejes/preventivo">
+          <NuxtLink to="/ejes/social">
             <h4 class="text-xl text-rose-600 hover:underline font-semibold mb-2">
-              EJE PREVENTIVO
+              EJE SOCIAL
             </h4>
           </NuxtLink>
           <p class="text-xl">
-            Honrar la memoria de Mariana al contribuir a una sociedad consciente y con mayor atención en la población infantil.
+            Apoyamos la formación y bienestar de 120 niños, niñas y adolescentes de los barrios Altos de Serrezuela, Lomitas, Capilla, Aurora Alta y Aurora Baja en la ciudad de Bogotá.
           </p>
         </div>
       </div>
