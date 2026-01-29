@@ -101,9 +101,9 @@ const menu = [
   { name: 'Voluntariado', link: '/voluntariado' },
   { name: 'Noticias', link: '/' },
   { name: 'Tienda', link: '/' },
-  { name: 'Donar', link: '/' },
-  { name: 'Transparencia', link: '/' },
-  { name: 'Contacto', link: '/' },
+  { name: 'Donar', link: '/donar' },
+  { name: 'Transparencia', link: '/transparencia' },
+  { name: 'Contacto', link: '/contacto' },
 ];
 
 const isMenuOpen = ref(false);
