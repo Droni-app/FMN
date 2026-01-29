@@ -1,5 +1,5 @@
 <template>
-  <div class="proyecto-social">
+  <div>
     <!-- Hero Section -->
     <section class="bg-gradient-to-r from-purple-600 to-pink-600 text-white py-16 px-4">
       <div class="container mx-auto max-w-6xl">
@@ -45,7 +45,7 @@
               src="~/assets/img/ejes/padrino.webp" 
               alt="Plan Padrino" 
               class="rounded-lg shadow-xl w-full"
-            />
+            >
           </div>
         </div>
       </div>
@@ -79,7 +79,7 @@
                   src="~/assets/img/ejes/01.jpg" 
                   alt="Programa Estimulación Temprana" 
                   class="w-full h-full object-cover"
-                />
+                >
               </div>
             </div>
           </div>
@@ -92,7 +92,7 @@
                   src="~/assets/img/ejes/02.jpg" 
                   alt="Programa Un ser que imagina" 
                   class="w-full h-full object-cover"
-                />
+                >
               </div>
               <div class="p-8">
                 <h3 class="text-3xl font-bold text-purple-700 mb-4">
@@ -126,7 +126,7 @@
                   src="~/assets/img/ejes/03.jpg" 
                   alt="Programa Soy Yo" 
                   class="w-full h-full object-cover"
-                />
+                >
               </div>
             </div>
           </div>
@@ -183,7 +183,7 @@
                   src="~/assets/img/ejes/05.jpg" 
                   alt="Programa Saber nadar" 
                   class="w-full h-full object-cover"
-                />
+                >
               </div>
             </div>
           </div>
@@ -249,9 +249,3 @@ useHead({
   ]
 })
 </script>
-
-<style scoped>
-.proyecto-social {
-  @apply min-h-screen;
-}
-</style>
