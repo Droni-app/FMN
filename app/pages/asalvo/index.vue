@@ -157,7 +157,7 @@
               src="~/assets/img/asalvo/opes.jpg" 
               alt="Curso OPES" 
               class="rounded-lg shadow-xl w-full"
-            />
+            >
           </div>
         </div>
       </div>
@@ -197,6 +197,14 @@
         </div>
       </div>
     </section>
+    <a href="https://asalvo.org/">
+      <img 
+        src="~/assets/img/asalvo/visita-web.png"
+        alt="Visita ASALVO"
+        class="w-full h-auto mt-16 rounded-lg shadow-xl hover:shadow-2xl transition-shadow duration-300"
+      >
+
+    </a>
   </div>
 </template>
 

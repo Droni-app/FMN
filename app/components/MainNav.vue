@@ -96,7 +96,7 @@ const colorMode = useColorMode();
 const menu = [
   { name: 'Ejes', link: '/ejes' },
   { name: 'Asalvo', link: '/asalvo' },
-  { name: 'Congreso', link: '/' },
+  { name: 'Congreso', link: '/congreso' },
   { name: 'Talleres', link: '/talleres' },
   { name: 'Voluntariado', link: '/voluntariado' },
   { name: 'Noticias', link: '/' },
