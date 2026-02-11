@@ -99,7 +99,7 @@ const menu = [
   { name: 'Congreso', link: '/congreso' },
   { name: 'Talleres', link: '/talleres' },
   { name: 'Voluntariado', link: '/voluntariado' },
-  { name: 'Noticias', link: '/' },
+  { name: 'Noticias', link: '/noticias' },
   { name: 'Tienda', link: '/' },
   { name: 'Donar', link: '/donar' },
   { name: 'Transparencia', link: '/transparencia' },

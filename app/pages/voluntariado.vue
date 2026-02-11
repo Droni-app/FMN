@@ -31,12 +31,13 @@
               en la Fundación Mariana Novoa y comparte con nuestros 110 niños en Altos de
               Serrezuela!
             </p>
-            <a 
+            <NuxtLink
+              to="/contacto"
               href="#"
               class="inline-block bg-purple-600 hover:bg-purple-700 text-white font-bold py-3 px-8 rounded-lg transition-colors duration-300"
             >
               Llenar Formulario
-            </a>
+            </NuxtLink>
           </div>
           <div>
             <img 
@@ -62,12 +63,13 @@
               sociedad? ¡La responsabilidad social de tu empresa y la Fundación Mariana Novoa pueden
               trabajar de la mano!
             </p>
-            <a 
+            <NuxtLink
+              to="/contacto"
               href="#"
               class="inline-block bg-purple-600 hover:bg-purple-700 text-white font-bold py-3 px-8 rounded-lg transition-colors duration-300"
             >
               Llenar Formulario
-            </a>
+            </NuxtLink>
           </div>
           <div class="order-1 md:order-2">
             <img 

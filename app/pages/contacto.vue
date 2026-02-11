@@ -108,16 +108,9 @@
               <div class="flex gap-4">
                 <button
                   type="submit"
-                  class="flex-1 bg-gradient-to-r from-purple-600 to-pink-600 hover:from-purple-700 hover:to-pink-700 text-white font-bold py-3 px-6 rounded-lg transition-all duration-300"
+                  class="cursor-pointer flex-1 bg-gradient-to-r from-purple-600 to-pink-600 hover:from-purple-700 hover:to-pink-700 text-white font-bold py-3 px-6 rounded-lg transition-all duration-300"
                 >
                   Enviar Mensaje
-                </button>
-                <button
-                  type="button"
-                  class="flex-1 bg-green-500 hover:bg-green-600 text-white font-bold py-3 px-6 rounded-lg transition-all duration-300 flex items-center justify-center gap-2"
-                  @click="openWhatsApp"
-                >
-                  <span>WhatsApp</span>
                 </button>
               </div>
             </form>
@@ -231,7 +224,7 @@ import { ref } from 'vue'
 
 const contactOptions = [
   { value: 'talleres', label: 'Talleres', icon: 'mdi-palette' },
-  { value: 'voluntariado', label: 'Voluntariado', icon: 'mdi-heart-handshake' },
+  { value: 'voluntariado', label: 'Voluntariado', icon: 'mdi-account-group-outline' },
   { value: 'tienda', label: 'Tienda', icon: 'mdi-shopping' },
   { value: 'otro', label: 'Otro', icon: 'mdi-help-circle' }
 ]
@@ -251,10 +244,6 @@ const handleSubmit = () => {
   )
   window.open(`https://wa.me/573164284175?text=${mensaje}`, '_blank')
   form.value = { tipo: 'otro', nombre: '', email: '', telefono: '', mensaje: '' }
-}
-
-const openWhatsApp = () => {
-  window.open('https://wa.me/573164284175', '_blank')
 }
 
 useHead({

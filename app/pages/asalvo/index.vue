@@ -34,7 +34,7 @@
               src="https://www.mariananovoa.org/build/img/ahogamiento/ahogafoto.webp" 
               alt="ASALVO" 
               class="rounded-lg shadow-xl w-full"
-            />
+            >
           </div>
         </div>
       </div>
