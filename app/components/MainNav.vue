@@ -100,7 +100,7 @@ const menu = [
   { name: 'Talleres', link: '/talleres' },
   { name: 'Voluntariado', link: '/voluntariado' },
   { name: 'Noticias', link: '/noticias' },
-  { name: 'Tienda', link: '/' },
+  { name: 'Tienda', link: '/tienda' },
   { name: 'Donar', link: '/donar' },
   { name: 'Transparencia', link: '/transparencia' },
   { name: 'Contacto', link: '/contacto' },
