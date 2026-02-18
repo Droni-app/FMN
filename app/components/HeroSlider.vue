@@ -93,6 +93,8 @@
 </template>
 
 <script setup lang="ts">
+import bannerLanzamiento from '~/assets/img/congreso/2026/banner-lanzamiento.webp'
+
 interface Slide {
   image: string
   title?: string
@@ -101,9 +103,13 @@ interface Slide {
 }
 
 const slides: Slide[] = [
+  {
+    image: bannerLanzamiento,
+    link: '/congreso'
+  },
   { 
-    image: '/img/slides/02.png',
-    link: '/'
+    image: '/img/slides/02.webp',
+    link: 'https://checkout.wompi.co/l/VPOS_2DN3Dr'
   },
   { 
     image: '/img/slides/03.png',
@@ -142,15 +148,15 @@ const startAutoplay = () => {
   
   autoplayInterval = setInterval(() => {
     nextSlide()
-  }, 5000)
+  }, 15000)
 
   // Progress bar animation
   progressInterval = setInterval(() => {
-    progress.value += 0.2 // 100% in 5000ms (5000/100 = 50ms per 1%)
+    progress.value += 0.2 // 100% in 15000ms (15000/100 = 150ms per 1%)
     if (progress.value >= 100) {
       progress.value = 0
     }
-  }, 10)
+  }, 30)
 }
 
 const stopAutoplay = () => {
