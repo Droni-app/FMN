@@ -1,17 +1,53 @@
 <template>
   <div>
     <HeroSlider />
-    <article class="container mx-auto px-4 py-8 md:py-12 lg:py-16 md:flex items-center text-center">
-      <div>
+    <article class="container mx-auto px-4 py-8 md:py-12 lg:py-16 md:flex items-center text-start">
+      <div class="md:w-1/2">
         <h2 class="text-4xl text-rose-400 py-8 poppins font-bold">
           ¿Quiénes somos?
         </h2>
         <p class="text-xl">
-          Hortensia Espitaleta, madre, publicista, empresaria y conferencista, crea la Fundación Mariana Novoa, una organización sin ánimo de lucro que hace honor a la memoria de su hija que murió por ahogamiento al caer en la piscina de un jardín infantil en su primer día de clases. Tras este suceso se convierte en la abanderada de un gran proyecto que tiene como propósito generar cultura de prevención del ahogamiento y accidentes en la primera infancia.
+          La Fundación Mariana Novoa es una organización sin ánimo de lucro fundada en el año 2007 con el propósito de honrar la memoria de Mariana, hija de Hortensia Espitaleta, quien falleció por ahogamiento al caer en una piscina en su primer día de clases en un jardín infantil. Actualmente cuenta con más de 18 años de trayectoria liderando la bandera de la prevención de accidentes infantiles en Colombia, generando conciencia sobre la prevención del ahogamiento y otros incidentes, mediante estrategias pedagógicas y de capacitación que brinda a padres de familia, instituciones educativas, empresas y/o público en general.
+        </p>
+        <p class="text-xl">
+          Al tiempo, desde el año 2014 genera un impacto social directo en comunidades vulnerables como Altos de Serrezuela en Bogotá, donde atiende a niños, niñas, adolescentes y adultos mayores mediante talleres de arte, deporte (running y atletismo) y acompañamiento psicosocial.
+        </p>
+
+        <h2 class="text-3xl text-rose-400 py-8 poppins font-bold">
+          PROPÓSITO SUPERIOR
+        </h2>
+        <p class="text-xl">
+          Honrar la memoria de Mariana Novoa al contribuir a una sociedad consciente y con mayor atención a la población infantil para promover líderes que construyan un mejor país
+        </p>
+        <h2 class="text-3xl text-rose-400 py-8 poppins font-bold">
+          MISIÓN
+        </h2>
+        <p class="text-xl">
+          Promover la importancia de la prevención, seguridad y desarrollo integral de niños y niñas en los diferentes espacios de interacción social, buscando contribuir de manera eficaz la protección de la vida, disminución del riesgo y la generación de nuevas oportunidades.
+        </p>
+        <h2 class="text-3xl text-rose-400 py-8 poppins font-bold">
+          VISIÓN
+        </h2>
+        <p class="text-xl">
+          En el 2030 la Fundación Mariana Novoa será una organización reconocida a nivel nacional e internacional, siendo un referente en seguridad y prevención de accidentalidad infantil al contar con una cifra superior de 20.000 personas capacitadas en Primeros Auxilios y RCP. Además, por su aporte a la sociedad en la ejecución de diferentes programas y/o proyectos que promueven la formación y bienestar de miembros de diferentes poblaciones y/o comunidades en Colombia.
         </p>
       </div>
-      <img src="~/assets/img/home/socialfoto.webp" alt="Foto social">
+      <div class="md:w-1/2">
+        <img src="~/assets/img/home/socialfoto.webp" alt="Foto social">
+        <blockquote class="text-sm text-gray-600 italic mt-4 px-4 md:px-20 border-l-4 border-rose-400 text-start">
+          Hortensia Espitaleta, madre, publicista, empresaria, conferencista y directora de la Fundación Mariana Novoa.
+        </blockquote>
+      </div>
     </article>
+    <ClientOnly class="container mx-auto">
+      <iframe
+        class="aspect-video mt-4 rounded-lg shadow-lg mx-auto"
+        src="https://www.youtube.com/embed/CEqVym8y8oE"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin"
+        allowfullscreen />
+    </ClientOnly>
     <div class="bg-rose-100 py-12 md:py-16 lg:py-20 dark:bg-gray-800">
       <h2 class="text-3xl md:text-4xl lg:text-5xl text-rose-500 text-center poppins font-bold mb-12 md:mb-16">
         Nuestros Valores
