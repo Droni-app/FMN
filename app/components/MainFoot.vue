@@ -80,11 +80,11 @@
         
         <!-- Email -->
         <a 
-          href="mailto:informacion@mariananovoa.org"
+          href="mailto:Lina.villamil@mariananovoa.org"
           class="group inline-flex items-center gap-3 bg-white dark:bg-gray-800 text-indigo-600 dark:text-indigo-400 px-6 py-4 rounded-xl shadow-lg hover:shadow-2xl transition-all duration-300 hover:scale-105 hover:bg-blue-50 dark:hover:bg-gray-700 font-medium"
         >
           <i class="mdi mdi-email text-2xl group-hover:translate-x-1 transition-transform"/>
-          <span class="text-base md:text-lg">informacion@mariananovoa.org</span>
+          <span class="text-base md:text-lg">Lina.villamil@mariananovoa.org</span>
         </a>
       </div>
     </div>
