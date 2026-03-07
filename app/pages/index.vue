@@ -39,15 +39,37 @@
         </blockquote>
       </div>
     </article>
-    <ClientOnly class="container mx-auto">
-      <iframe
-        class="aspect-video mt-4 rounded-lg shadow-lg mx-auto"
-        src="https://www.youtube.com/embed/CEqVym8y8oE"
-        title="YouTube video player"
-        frameborder="0"
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin"
-        allowfullscreen />
+    <ClientOnly class="container mx-auto p-8">
+      <div class="flex flex-col md:flex-row gap-8">
+        <div class="flex-1">
+          <iframe
+            class="aspect-video mt-4 rounded-lg shadow-lg mx-auto"
+            src="https://www.youtube.com/embed/CEqVym8y8oE"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin"
+            allowfullscreen />
+        </div>
+        <div class="flex-1">
+          <iframe
+            class="aspect-video mt-4 rounded-lg shadow-lg mx-auto"
+            src="https://www.youtube.com/embed/Q6D11e4UKRQ"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin"
+            allowfullscreen />
+        </div>
+      </div>
     </ClientOnly>
+    <article class="container mx-auto px-4 py-8 md:py-12 lg:py-16">
+      <h2 class="text-4xl text-rose-400 py-8 poppins font-bold text-center">
+        ALTOS DE SERREZUELA
+      </h2>
+      <img src="~/assets/img/home/casaFundacion.webp" alt="Casa Fundación Mariana Novoa" class="rounded-lg shadow-lg mb-8">
+      <p class="text-xl text-center">
+        Altos de Serrezuela es un sector poblado de la localidad de Usaquén, zona rural Bogotá, de origen informal y fundado en el año 1967, caracterizado por su crecimiento urbano no planificado, con viviendas autoconstruidas y condiciones socioeconómicas vulnerables. A pesar de las limitaciones en infraestructura y servicios públicos, es una comunidad resiliente, con una fuerte presencia de población infantil y adulta mayor. El sector enfrenta retos en acceso a educación, salud, espacios recreativos seguros y oportunidades de empleo. 
+      </p>
+    </article>
     <div class="bg-rose-100 py-12 md:py-16 lg:py-20 dark:bg-gray-800">
       <h2 class="text-3xl md:text-4xl lg:text-5xl text-rose-500 text-center poppins font-bold mb-12 md:mb-16">
         Nuestros Valores
