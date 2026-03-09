@@ -69,6 +69,47 @@
       <p class="text-xl text-center">
         Altos de Serrezuela es un sector poblado de la localidad de Usaquén, zona rural Bogotá, de origen informal y fundado en el año 1967, caracterizado por su crecimiento urbano no planificado, con viviendas autoconstruidas y condiciones socioeconómicas vulnerables. A pesar de las limitaciones en infraestructura y servicios públicos, es una comunidad resiliente, con una fuerte presencia de población infantil y adulta mayor. El sector enfrenta retos en acceso a educación, salud, espacios recreativos seguros y oportunidades de empleo. 
       </p>
+      <img src="~/assets/img/home/presentacion.webp" alt="Presentación Fundación Mariana Novoa en Altos de Serrezuela" class="rounded-lg shadow-lg mt-8">
+      <img src="~/assets/img/home/ods.webp" alt="Presentación Fundación Mariana Novoa en Altos de Serrezuela" class="rounded-lg shadow-lg mt-8">
+    </article>
+    <article class="container mx-auto px-4 py-8 md:py-12 lg:py-16">
+      <h2 class="text-4xl text-rose-400 py-8 poppins font-bold text-center">
+        Equipo de trabajo
+      </h2>
+      <div class="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-5 gap-8">
+        <div class="text-center">
+          <img src="~/assets/img/home/equipo/FOTO-CAROL-CALDERON.png" alt="Carol Calderon" class="w-full h-auto rounded-full shadow-lg mb-4">
+          <h3 class="text-xl font-bold text-gray-800">Carol Calderon</h3>
+        </div>
+        <div class="text-center">
+          <img src="~/assets/img/home/equipo/FOTO-CRISTIAN-SOLANO.png" alt="Cristian Solano" class="w-full h-auto rounded-full shadow-lg mb-4">
+          <h3 class="text-xl font-bold text-gray-800">Cristian Solano</h3>
+        </div>
+        <div class="text-center">
+          <img src="~/assets/img/home/equipo/FOTO-HORTENSIA-ESPITALETA.png" alt="Hortensia Espitaleta" class="w-full h-auto rounded-full shadow-lg mb-4">
+          <h3 class="text-xl font-bold text-gray-800">Hortensia Espitaleta</h3>
+        </div>
+        <div class="text-center">
+          <img src="~/assets/img/home/equipo/FOTO-LINA-VILLAMIL.png" alt="Lina Villamil" class="w-full h-auto rounded-full shadow-lg mb-4">
+          <h3 class="text-xl font-bold text-gray-800">Lina Villamil</h3>
+        </div>
+        <div class="text-center">
+          <img src="~/assets/img/home/equipo/FOTO-OLGA-BAQUERO.png" alt="Olga Baquero" class="w-full h-auto rounded-full shadow-lg mb-4">
+          <h3 class="text-xl font-bold text-gray-800">Olga Baquero</h3>
+        </div>
+        <div class="text-center">
+          <img src="~/assets/img/home/equipo/FOTO-SANTIAGO-SALGADO.png" alt="Santiago Salgado" class="w-full h-auto rounded-full shadow-lg mb-4">
+          <h3 class="text-xl font-bold text-gray-800">Santiago Salgado</h3>
+        </div>
+        <div class="text-center">
+          <img src="~/assets/img/home/equipo/FOTO-STEVEN-RATIVA.png" alt="Steven Rativa" class="w-full h-auto rounded-full shadow-lg mb-4">
+          <h3 class="text-xl font-bold text-gray-800">Steven Rativa</h3>
+        </div>
+        <div class="text-center">
+          <img src="~/assets/img/home/equipo/FOTO-WENDY-IMBRETH.png" alt="Wendy Imbreth" class="w-full h-auto rounded-full shadow-lg mb-4">
+          <h3 class="text-xl font-bold text-gray-800">Wendy Imbreth</h3>
+        </div>
+      </div>
     </article>
     <div class="bg-rose-100 py-12 md:py-16 lg:py-20 dark:bg-gray-800">
       <h2 class="text-3xl md:text-4xl lg:text-5xl text-rose-500 text-center poppins font-bold mb-12 md:mb-16">
