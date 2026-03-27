@@ -50,12 +50,49 @@
 
       <section class="mt-12 w-full max-w-5xl rounded-2xl border border-white/10 bg-white/5 p-5 text-left backdrop-blur-[1px] sm:mt-16 sm:p-8">
         <div class="text-center">
+          <div class="mx-auto max-w-4xl rounded-sm bg-[#f4be56] px-4 py-3">
+            <p class="text-3xl font-extrabold text-[#0f2f78] sm:text-5xl">Pack academico y practico (2 dias)</p>
+          </div>
+
+          <p class="mt-5 text-3xl font-extrabold text-white sm:text-5xl">24 y 25 de agosto de 2026</p>
+          <p class="mt-6 text-[1.575rem] font-black text-[#9dd9ee] sm:text-[3.15rem]">$750.000 COP / 206 USD</p>
+        </div>
+
+        <div class="mt-8 inline-flex rounded-full bg-[#61d3f3] px-6 py-2">
+          <p class="text-2xl font-extrabold text-[#11317a]">Que incluye?</p>
+        </div>
+
+        <div class="mt-7 space-y-5 text-xl font-semibold leading-snug text-white sm:text-3xl">
+          <p>1. Contenido: Incluye acceso a las jornadas Academicas Teorico-Practicas durante dos dias del evento (24 y 25 de agosto).</p>
+
+          <p>2. Souvenirs</p>
+
+          <p>3. Refrigerios: Servicio de alimentacion ligera am y pm (24 y 25 de agosto).</p>
+
+          <p>4. Almuerzos: Incluye el servicio de almuerzo (24 y 25 de agosto).</p>
+
+          <p>5. Transporte desde Bogota (Ida y Regreso)</p>
+
+          <p class="pl-5 sm:pl-8">Salida: Desde Bogota el 23 de agosto hacia los Hoteles Colsubsidio.</p>
+          <p class="pl-5 sm:pl-8">Retorno: Desde los Hoteles Colsubsidio hacia Bogota el 25 de agosto en la noche o el 26 de agosto en la manana (sujeto a la programacion final).</p>
+
+          <p>6. Transporte Interno (Logistica Local) Traslados garantizados entre los Hoteles Colsubsidio y el Parque Acuatico y de Conservacion Piscilago durante los dias de actividad (24 y 25 de agosto).</p>
+        </div>
+
+        <div class="mt-10 text-center sm:mt-12">
+          <p class="text-4xl font-extrabold text-[#f5c638] sm:text-5xl">Piscilago Colsubsidio <span class="text-[#61d3f3]">Nilo, Cundinamarca</span></p>
+          <p class="mt-1 text-2xl font-semibold text-white sm:text-3xl">Via Bogota- Girardot, Km. 105</p>
+        </div>
+      </section>
+
+      <section class="mt-10 w-full max-w-5xl rounded-2xl border border-white/10 bg-white/5 p-5 text-left backdrop-blur-[1px] sm:mt-12 sm:p-8">
+        <div class="text-center">
           <div class="mx-auto max-w-3xl rounded-sm bg-[#0f2f78] px-4 py-3">
             <p class="text-3xl font-extrabold text-[#f4be56] sm:text-5xl">Pack completo (3 dias)</p>
           </div>
 
           <p class="mt-5 text-3xl font-extrabold text-white sm:text-5xl">24, 25 y 26 de agosto de 2026</p>
-          <p class="mt-6 text-4xl font-black text-[#9dd9ee] sm:text-7xl">$850.000 COP / 240 USD</p>
+          <p class="mt-6 text-[1.575rem] font-black text-[#9dd9ee] sm:text-[3.15rem]">$850.000 COP / 240 USD</p>
         </div>
 
         <div class="mt-8 inline-flex rounded-full bg-[#61d3f3] px-6 py-2">
