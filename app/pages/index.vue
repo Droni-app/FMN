@@ -78,16 +78,6 @@
       </h2>
       <div class="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-5 gap-8">
         <div class="text-center">
-          <img src="~/assets/img/home/equipo/FOTO-CAROL-CALDERON.png" alt="Carol Calderon" class="w-full h-auto rounded-full shadow-lg mb-4">
-          <h3 class="text-xl font-bold text-gray-800">Carol Calderón</h3>
-          <p class="text-sm text-gray-600 mt-2">Coordinadora Programa Social</p>
-        </div>
-        <div class="text-center">
-          <img src="~/assets/img/home/equipo/FOTO-CRISTIAN-SOLANO.png" alt="Cristian Solano" class="w-full h-auto rounded-full shadow-lg mb-4">
-          <h3 class="text-xl font-bold text-gray-800">Cristian Solano</h3>
-          <p class="text-sm text-gray-600 mt-2">Área Contable y Administrativa</p>
-        </div>
-        <div class="text-center">
           <img src="~/assets/img/home/equipo/FOTO-HORTENSIA-ESPITALETA.png" alt="Hortensia Espitaleta" class="w-full h-auto rounded-full shadow-lg mb-4">
           <h3 class="text-xl font-bold text-gray-800">Hortensia Espitaleta</h3>
           <p class="text-sm text-gray-600 mt-2">Directora</p>
@@ -101,6 +91,16 @@
           <img src="~/assets/img/home/equipo/FOTO-OLGA-BAQUERO.png" alt="Olga Baquero" class="w-full h-auto rounded-full shadow-lg mb-4">
           <h3 class="text-xl font-bold text-gray-800">Olga Lucía Baquero</h3>
           <p class="text-sm text-gray-600 mt-2">Directora Científica Fundación Mariana Novoa</p>
+        </div>
+        <div class="text-center">
+          <img src="~/assets/img/home/equipo/FOTO-CAROL-CALDERON.png" alt="Carol Calderon" class="w-full h-auto rounded-full shadow-lg mb-4">
+          <h3 class="text-xl font-bold text-gray-800">Carol Calderón</h3>
+          <p class="text-sm text-gray-600 mt-2">Coordinadora Programa Social</p>
+        </div>
+        <div class="text-center">
+          <img src="~/assets/img/home/equipo/FOTO-CRISTIAN-SOLANO.png" alt="Cristian Solano" class="w-full h-auto rounded-full shadow-lg mb-4">
+          <h3 class="text-xl font-bold text-gray-800">Cristian Solano</h3>
+          <p class="text-sm text-gray-600 mt-2">Área Contable y Administrativa</p>
         </div>
         <div class="text-center">
           <img src="~/assets/img/home/equipo/FOTO-SANTIAGO-SALGADO.png" alt="Santiago Salgado" class="w-full h-auto rounded-full shadow-lg mb-4">
