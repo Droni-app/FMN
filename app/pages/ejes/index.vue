@@ -9,7 +9,7 @@
         <div class="p-4">
           <NuxtLink to="/ejes/preventivo">
             <h4 class="text-xl text-rose-600 hover:underline font-semibold mb-2">
-              ASALVO – Eje preventivo
+              ASALVO - Eje preventivo
             </h4>
           </NuxtLink>
           <p class="text-xl">

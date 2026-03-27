@@ -13,13 +13,14 @@
     <article>
       <div class="container mx-auto">
         <div class="lg:flex py-4">
-          <div class="lg:w-1/2">
-            <p class="text-4xl p-20">
-              Queremos incrementar las personas capacitadas en Bogotá, Colombia y el mundo a través de los talleres de Primeros Auxilios y RCP
-            </p>
+          <div class="lg:w-1/3 p-3">
+            <img src="~/assets/img/ejes/ejepreventivo01.webp" alt="Eje preventivo" class="aspect-3/2 object-cover">
           </div>
-          <div class="lg:w-1/2">
-            <img src="~/assets/img/ejes/ejepreventivo01.webp" alt="Eje preventivo">
+          <div class="lg:w-1/3 p-3">
+            <img src="~/assets/img/ejes/ejepreventivo03.webp" alt="Eje preventivo" class="aspect-3/2 object-cover">
+          </div>
+          <div class="lg:w-1/3 p-3">
+            <img src="~/assets/img/ejes/ejepreventivo02.webp" alt="Eje preventivo" class="aspect-3/2 object-cover">
           </div>
         </div>
         <img src="~/assets/img/ejes/contenido-programatico.png" alt="Contenido Programático" class="mx-auto my-10">
