@@ -94,7 +94,7 @@
 <script setup lang="ts">
 const colorMode = useColorMode();
 const menu = [
-  { name: 'Ejes', link: '/ejes' },
+  { name: 'Proyectos', link: '/ejes' },
   { name: 'Asalvo', link: '/asalvo' },
   { name: 'Congreso', link: '/congreso' },
   { name: 'Talleres', link: '/talleres' },

@@ -28,6 +28,17 @@
           </div>
         </div>
       </div>
+      <ClientOnly>
+        <iframe
+          class="airtable-embed"
+          src="https://airtable.com/embed/appIPoYkGE85ALCEn/shr26oVqqDHrwtfzG"
+          frameborder="0"
+          onmousewheel=""
+          width="100%"
+          height="533"
+          style="background: transparent; border: 1px solid #ccc;">
+        </iframe>
+      </ClientOnly>
     </div>
     <h2 class="font-extrabold text-center text-5xl text-rose-500">
       Por la compra de alguno de nuestros productos estás apoyando la formación de los 120 niños, niñas y adolescentes que pertenecen a nuestro Proyecto Social.

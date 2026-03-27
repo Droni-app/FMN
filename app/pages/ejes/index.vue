@@ -4,12 +4,12 @@
     <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
       <div class="rounded-lg overflow-hidden shadow-lg">
         <NuxtLink to="/ejes/preventivo">
-          <img src="~/assets/img/ejes/ejepreventivo01.webp" alt="Eje Preventivo" class="w-full h-80 object-cover">
+          <img src="~/assets/img/ejes/asalvo-ejes.webp" alt="Eje Preventivo" class="w-full h-80 object-cover">
         </NuxtLink>
         <div class="p-4">
           <NuxtLink to="/ejes/preventivo">
             <h4 class="text-xl text-rose-600 hover:underline font-semibold mb-2">
-              EJE PREVENTIVO
+              ASALVO – Eje preventivo
             </h4>
           </NuxtLink>
           <p class="text-xl">
